@@ -1,0 +1,1 @@
+export const getDepartmentFromId = (id, departments) => {console.log(departments,id); return  departments.find(d => d.id.toString() === id.toString())}

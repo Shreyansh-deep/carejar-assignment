@@ -1,0 +1,70 @@
+.doctorList-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-top: 50px;  
+    margin-right: 50px;  
+    margin-bottom: 50px;  
+}
+.doctor-detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: .75;
+    margin-left: 30px;
+}
+.doctor-name{
+    color: rgb(103, 171, 230);
+    font-weight: 500;
+    font-size: 20px;
+}
+.doctor-image{
+    width: 200px;
+    flex: .25;
+}
+.speciality{
+    color: rgb(153, 149, 149);
+}
+.experince{
+    color: rgb(153, 149, 149);
+}
+.availability{
+    color: rgb(70, 182, 70);
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.booking-button{
+    background-color: rgb(103, 171, 230);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 50px;
+    cursor: pointer;
+}
+.percentage-btn{
+    border: none;
+    background-color: rgb(82, 209, 82);
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.review-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    height: 25px;
+    width: 200px;
+}
+.navigate-btn{
+    margin: 20px;
+    margin-left: 20px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
