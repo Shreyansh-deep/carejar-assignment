@@ -29,7 +29,7 @@ const DepartmentList = () => {
                 src={data.imgUrl}
                 style={{ width: "300px" }}
                 className="department-thumbnail"
-                alt="department-image"
+                alt=""
               />
               <h4 className="department-name">{data.department}</h4>
               <p className="department-description">{data.description}</p>

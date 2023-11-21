@@ -31,7 +31,7 @@ const DoctorsList = () => {
               <img
                 src={faker.image.url()}
                 className="doctor-image"
-                alt="doctor-image"
+                alt=""
               />
               <div className="doctor-detail-container">
                 <p className="doctor-name">Dr. {name}</p>
